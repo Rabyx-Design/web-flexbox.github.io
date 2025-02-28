@@ -122,9 +122,6 @@
             background-size: cover;
             grid-row: span 3 ;
             height: auto;
-
-            
-            
         }
 
         .complex-grid :nth-child(4){
