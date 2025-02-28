@@ -10,7 +10,7 @@
             padding: 20px;
         }
         .wrapper {
-            max-width: 1280px;
+            max-width: 1200px;
             margin: 40px auto;
             background: white;
             padding: 20px;
@@ -33,6 +33,7 @@
 
         .complex{
             margin-top: 40px;
+        
         }
 
         .main-content {
@@ -44,10 +45,11 @@
         .grid {
             display: grid;
             gap: 12px;
-            height: 100vh;
         }
 
-
+        .box{
+            height: 25vh;
+        }
         .simple-grid {
             grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: auto, auto, auto;
@@ -100,8 +102,7 @@
 
 
         .complex-grid {
-            grid-template-columns: 1fr 1fr 1fr;
-            
+            grid-template-columns: 1fr 2fr 1fr;
         }
 
         .complex-grid :nth-child(1){
@@ -199,7 +200,6 @@
         @media (max-width: 1200px) {
             .simple-grid, .complex-grid{
                 grid-template-columns: 1fr 2fr;
-                display: grid;
             }
 
             .container, .container div{
@@ -212,7 +212,6 @@
         @media (max-width: 800px) {
             .simple-grid, .complex-grid {
                 grid-template-columns: 1fr;
-                display: grid;
             }
 
             .container, .container div{
