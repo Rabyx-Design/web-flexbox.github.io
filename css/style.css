@@ -199,7 +199,7 @@
 
         /* Tablet View */
         @media (max-width: 1200px) {
-            .simple-grid, .complex-grid{
+            .simple-grid{
                 grid-template-columns: 1fr 2fr;
             }
 
@@ -207,19 +207,27 @@
                 text-align: center;
             }
 
+          
         }
         
         /* Mobile View */
         @media (max-width: 800px) {
-            .simple-grid, .complex-grid {
+            .simple-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .complex-grid{
+                grid-template-columns: 1fr;
+                display: block;
+            }
+
+            .complex-grid div{
+                margin: 12px;
             }
 
             .container, .container div{
                 text-align: center;
                 font-size: .7rem;
             }
-         
-        } 
 
-        
+        }
