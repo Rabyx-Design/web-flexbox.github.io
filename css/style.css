@@ -121,7 +121,7 @@
             background-image: url(../img/img9.jpg);
             background-size: cover;
             grid-row: span 3 ;
-            height: auto;
+            height: 100vh;
         }
 
         .complex-grid :nth-child(4){
@@ -230,4 +230,8 @@
                 font-size: .7rem;
             }
 
+<<<<<<< HEAD
         }
+=======
+        
+>>>>>>> 7628eaa2919df45461b8c64329e1d8d859b8dfad
