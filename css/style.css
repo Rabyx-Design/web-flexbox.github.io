@@ -121,7 +121,7 @@
             background-image: url(../img/img9.jpg);
             background-size: cover;
             grid-row: span 3 ;
-            height: 80vh;
+            height: 50vh;
         }
 
         .complex-grid :nth-child(4){
