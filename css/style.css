@@ -103,12 +103,13 @@
 
         .complex-grid {
             grid-template-columns: 1fr 2fr 1fr;
+            width: auto;
         }
 
         .complex-grid :nth-child(1){
             background-image: url(../img/img2.jpg);
             background-size: cover;
-            grid-column:span 3
+            grid-column: span 3;          
         }
 
         .complex-grid :nth-child(2){
@@ -119,7 +120,10 @@
         .complex-grid :nth-child(3){
             background-image: url(../img/img9.jpg);
             background-size: cover;
-            grid-row: span 3;
+            grid-row: span 3 ;
+            height: auto;
+
+            
             
         }
 
