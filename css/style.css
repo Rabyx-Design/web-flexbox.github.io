@@ -10,7 +10,7 @@
             padding: 20px;
         }
         .wrapper {
-            max-width: 1200px;
+            max-width: 1280px;
             margin: 40px auto;
             background: white;
             padding: 20px;
@@ -33,11 +33,6 @@
 
         .complex{
             margin-top: 40px;
-        
-        }
-
-        .simple-grid div{
-            color: bisque;
         }
 
         .main-content {
