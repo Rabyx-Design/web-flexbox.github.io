@@ -122,7 +122,7 @@
             background-image: url(../img/img9.jpg);
             background-size: cover;
             grid-row: span 3 ;
-            min-height: 78.5vh;
+            min-height: 79vh;
         }
 
         .complex-grid :nth-child(4){
