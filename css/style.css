@@ -230,7 +230,6 @@
                 background-size: cover;
                 grid-row: span 2 ;
                 min-height: 52vh;
-                max-height: 80vh;
             }
     
             .complex-grid :nth-child(4){
